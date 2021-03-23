@@ -5,9 +5,6 @@ metadata:
   name: cicd-event-listener
   namespace: cicd
 spec:
-  namespaceSelector: {}
-  podTemplate: {}
-  resources: {}
   serviceAccountName: pipeline
   triggers:
   - bindings:
